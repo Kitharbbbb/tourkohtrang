@@ -1,0 +1,50 @@
+body {
+    background-size: cover;
+    margin: 0%;
+}
+
+div.formprofile {
+    width: 50rem;
+    margin: 3rem auto;
+    height: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+    transition: 0.3s;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    margin-top: 1rem;
+}
+img.prof {
+    margin-left: 19rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 15rem;
+    height: 15rem;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10rem;
+
+}
+div.form-floating{
+    width: 40%;
+    margin-left: 10rem;
+}
+button[type="submit"] {
+    background-color: #165af7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-left: 22rem;
+    margin-bottom: 1rem;
+  }
+  button[type="submit"]:hover {
+    opacity: 0.8;
+    background-color: #165af7aa;
+    text-align: center;
+  }
+  

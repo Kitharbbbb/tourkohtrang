@@ -1,0 +1,57 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+a.nav-linkactive {
+    color: blueviolet;
+    background-color: aliceblue;
+}
+
+div.conn {
+    align-items: center;
+    background-color: aliceblue;
+    width: 60rem;
+    margin: 2rem auto;
+    height: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    overflow: hidden;
+    text-align: center;
+    margin-top: -2rem;
+}
+
+div.imgcon {
+    align-items: center;
+    width: 60rem;
+    margin: 1rem auto;
+    height: auto;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+img.conf{
+    width: 30rem;
+    height: auto;
+    overflow: hidden;
+}
+
+button {
+    background-color: rgb(8, 64, 196);
+    border-radius: 1rem;
+    border: none;
+    margin: 0%;
+    width: 6rem;
+    height: 3rem;
+    margin-bottom:1rem ;
+    margin-top: 1rem;
+}
+a{
+    color: aliceblue;
+}
+
+button:hover {
+    background-color: rgba(10, 72, 218, 0.885);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}

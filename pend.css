@@ -1,0 +1,155 @@
+body {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+}
+a.nav-linkactive {
+    color: blueviolet;
+    background-color: aliceblue;
+}
+
+div.pendy {
+    width: 80rem;
+    margin: 3rem auto;
+    height: 25rem;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+    transition: 0.3s;
+    overflow: hidden;
+    background-color: white;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+h1,
+h4 {
+    margin-left: 2rem;
+}
+
+div.img {
+
+    width: 45rem;
+}
+
+div.content {
+    top: 20rem;
+}
+div.button{
+    position: relative;
+    left: 22rem;
+    top: 8rem;
+}
+
+button {
+    background-color: rgb(8, 64, 196);
+    border-radius: 1rem;
+    margin: 0%;
+    width: 6rem;
+    height: 3rem;
+    border: none;
+}
+button:hover{
+    background-color: rgba(10, 72, 218, 0.885);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+button.edit {
+    background-color: rgb(196, 8, 8);
+    border-radius: 1rem;
+    margin: 0%;
+    width: 6rem;
+    height: 3rem;
+    border: none;
+}
+
+button.edit:hover{
+    background-color: rgba(196, 8, 8, 0.885);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+a.button{
+    color: white;
+}
+div.pay{
+    width: 80rem;
+    margin: 3rem auto;
+    height: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+    transition: 0.3s;
+    overflow: hidden;
+    background-color: white;
+    grid-template-columns: repeat(3, 1fr);
+}
+div.buy{
+    position: relative;
+    left: 28rem;
+    top: 8rem;
+}
+img.scb{
+    width:4rem;
+    height:4rem;
+    margin-left: 4rem;
+}
+p.bank{
+    margin-top: -4rem;
+    margin-left: 10rem;
+}
+div.bank{
+
+    margin-left: 2rem;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  width: 40%;
+  font-size: 16px;
+  color: #555;
+}
+input[type="file"]{
+    position: relative;
+    height: 2rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    width: 10%;
+
+    color: #55555574;
+}
+
+  button.payin{
+    margin-bottom: 2rem;
+    margin-left: 37rem;
+  }
+  div.input-group{
+    margin-top: 2rem;
+  }
+  div.conn{
+    width: 60rem;
+    margin: 8rem auto;
+    height: 25rem;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+    border:none;
+    transition: 0.3s;
+    overflow: hidden;
+    background-color: white;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  div.bottom
+{
+    margin-top: 9rem;
+    background-color: white;
+    width: 35rem ;
+}
+  div.bottom span{
+
+  font-size: 18px;
+  color: #FFD700;
+  }

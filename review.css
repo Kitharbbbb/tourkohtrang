@@ -1,0 +1,52 @@
+body {
+    background-size: cover;
+    margin: 0%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+  }
+  .review-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+  }
+  .review-container img {
+    width: 35rem;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 4px;
+  }
+  .review-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .review-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .review-container .author {
+    font-size: 14px;
+    color: #888;
+  }
+  .review-container .rating {
+    margin-top: 10px;
+  }
+  .review-container .rating span {
+    font-size: 18px;
+    color: #FFD700;
+  }
+  img.review{
+    height: auto;
+    width: 8rem;
+  }

@@ -1,0 +1,20 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+div.jm{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+div.main{
+    width: 360px;
+    margin: 3rem auto;
+    height: 360px;
+    box-shadow: 3px 3px 10px rgba(0, 0,0, 0.2);
+    border-radius: 10px;
+    transition: 0.3s;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+}
